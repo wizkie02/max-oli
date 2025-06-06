@@ -25,7 +25,7 @@ const Header: React.FC = () => {
             Scientific Repository
           </Link>
           <a 
-            href="https://www.shop.mm4all.com/max-oli" 
+            href="https://shop.mm4all.com/max-oli/shop/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-[#1C4473] hover:text-[#67AAF9] font-medium transition-colors"

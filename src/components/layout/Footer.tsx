@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li><a href="https://www.youtube.com/@ADDAutismAppreciation" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFCD00] transition-colors">YouTube</a></li>
               <li><a href="https://maxandoli.substack.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFCD00] transition-colors">Newsletter</a></li>
-              <li><a href="https://www.shop.mm4all.com/max-oli" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFCD00] transition-colors">Shop</a></li>
+              <li><a href="https://shop.mm4all.com/max-oli/shop/" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFCD00] transition-colors">Shop</a></li>
             </ul>
           </div>
           
