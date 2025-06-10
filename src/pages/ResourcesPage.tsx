@@ -182,15 +182,65 @@ const ResourcesPage: React.FC = () => {
           </div>
         </div>
       </section> */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col justify-center items-center gap-8">
+            <div className="flex flex-col lg:flex-row justify-center items-center gap-8">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/cL1D5KleEzU?si=w_jRnnSEgF8k0UQZ"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                className="rounded-xl border-2 border-black"
+                allowFullScreen
+              ></iframe>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/XPbZ_5pIQCo?si=PKn-dtR1KFC5RpUg"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                className="rounded-xl border-2 border-black"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="flex flex-col lg:flex-row justify-center items-center gap-8">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/jbcpnFvRFBc?si=RU0XYdaGqbFJ2Kqq"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                className="rounded-xl border-2 border-black"
+                allowFullScreen
+              ></iframe>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/be1_ygaEV14?si=GfqkzsYSV3NX6FTK"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                className="rounded-xl border-2 border-black"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* YouTube Resources */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center text-[#1C4473] mb-8">
-            Video Resources
+            More Resources
           </h2>
           <p className="text-lg text-center max-w-3xl mx-auto mb-12">
-            Check out our YouTube channel for engaging videos featuring Max and
+            Check out our YouTube channel for more engaging videos featuring Max and
             Oli that explain concepts, share strategies, and provide support for
             neurodivergent children and their families.
           </p>
