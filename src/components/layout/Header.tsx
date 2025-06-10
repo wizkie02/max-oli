@@ -154,7 +154,7 @@ const Header: React.FC = () => {
         )}
 
         {/* Accessibility Controls */}
-        <div className="hidden md:flex items-center space-x-4">
+        {/* <div className="hidden md:flex items-center space-x-4">
           <button
             aria-label="Increase font size"
             className="p-2 rounded-full bg-gray-100 text-[#1C4473] hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-[#67AAF9]"
@@ -219,7 +219,7 @@ const Header: React.FC = () => {
               />
             </svg>
           </button>
-        </div>
+        </div> */}
       </div>
     </header>
   );

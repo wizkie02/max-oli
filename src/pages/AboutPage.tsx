@@ -1,5 +1,5 @@
 import React from 'react';
-import teamImage from '../assets/ava_max_dark.png';
+import teamImage from '../assets/max.png';
 
 const AboutPage: React.FC = () => {
   return (
@@ -47,7 +47,7 @@ const AboutPage: React.FC = () => {
               <img 
                 src={teamImage} 
                 alt="The team behind Max & Oli" 
-                className="rounded-lg shadow-xl max-w-full h-auto" 
+                className="rounded-lg max-w-full h-64" 
               />
             </div>
           </div>
