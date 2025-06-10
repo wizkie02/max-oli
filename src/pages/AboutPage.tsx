@@ -102,16 +102,16 @@ const AboutPage: React.FC = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-16 bg-[#1C4473]">
+      <section className="py-16 bg-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">Join Our Community</h2>
-          <p className="text-white text-lg mb-8 max-w-2xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1C4473] mb-4">Join Our Community</h2>
+          <p className="text-lg mb-8 max-w-2xl mx-auto">
             Connect with other parents, teachers, and supporters of neurodivergent children through our resources and channels.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a 
               href="/resources" 
-              className="bg-[#FFCD00] text-[#1C4473] px-6 py-3 rounded-lg font-bold hover:bg-opacity-90 transition-colors focus:outline-none focus:ring-2 focus:ring-white"
+              className="bg-[#FFCD00] text-[#1C4473] px-6 py-3 rounded-lg font-bold hover:bg-opacity-80 transition-colors focus:outline-none focus:ring-2 focus:ring-white"
             >
               Explore Resources
             </a>
@@ -119,7 +119,7 @@ const AboutPage: React.FC = () => {
               href="https://www.youtube.com/@ADDAutismAppreciation" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-white text-[#1C4473] px-6 py-3 rounded-lg font-bold hover:bg-opacity-90 transition-colors focus:outline-none focus:ring-2 focus:ring-[#FFCD00]"
+              className="border border-[#1C4473] text-[#1C4473] px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors focus:outline-none focus:ring-2 focus:ring-[#FFCD00]"
             >
               Watch Our Videos
             </a>
@@ -127,7 +127,7 @@ const AboutPage: React.FC = () => {
               href="https://maxandoli.substack.com/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-[#67AAF9] text-white px-6 py-3 rounded-lg font-bold hover:bg-opacity-90 transition-colors focus:outline-none focus:ring-2 focus:ring-white"
+              className="bg-[#67AAF9] text-white px-6 py-3 rounded-lg font-bold hover:bg-opacity-80 transition-colors focus:outline-none focus:ring-2 focus:ring-white"
             >
               Subscribe to Newsletter
             </a>
