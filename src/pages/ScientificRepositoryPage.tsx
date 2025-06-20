@@ -94,19 +94,15 @@ const ScientificRepositoryPage: React.FC = () => {
                   Understanding Neurodiversity
                 </h2>
                 <p className="text-lg mb-4">
-                  Neurodiversity is the concept that neurological differences
-                  like autism and ADHD are the result of normal, natural
-                  variation in the human genome. This perspective recognizes
-                  that these conditions are not "disorders" to be cured, but
-                  rather different ways of processing and experiencing the
-                  world.
-                </p>
-                <p className="text-lg mb-4">
-                  Research has shown that neurodivergent individuals often have
-                  unique strengths and abilities that can be valuable in many
-                  contexts. By understanding and accommodating these
-                  differences, we can create environments where everyone can
-                  thrive.
+                  Neurodiversity is the idea that neurological differences like
+                  autism, ADHD, and learning disabilities are part of natural
+                  human variation. These differences are not deficits, but
+                  diverse ways of thinking, learning, and interacting. The
+                  neurodiversity movement emphasizes inclusion, self-advocacy,
+                  and changing environments—not individuals—to support
+                  well-being and equity. Respectful language and individualized
+                  approaches are key to fostering neuroinclusive spaces (Baumer
+                  & Frueh, 2021).
                 </p>
                 <div className="bg-gray-50 p-6 rounded-lg my-8">
                   <h3 className="text-xl font-bold text-[#1C4473] mb-4">
@@ -114,24 +110,31 @@ const ScientificRepositoryPage: React.FC = () => {
                   </h3>
                   <ul className="list-disc pl-6 space-y-2">
                     <li className="text-lg">
-                      Neurological differences are natural variations, not
-                      deficits
+                      Neurological differences are natural human variations, not
+                      problems to be fixed.
                     </li>
                     <li className="text-lg">
-                      Each neurotype has unique strengths and challenges
+                      Each neurotype comes with unique strengths and challenges.
                     </li>
                     <li className="text-lg">
-                      Environments can be adapted to support different
-                      neurotypes
+                      Adapting environments helps individuals thrive across
+                      settings.
                     </li>
                     <li className="text-lg">
-                      The medical model of disability focuses on "fixing"
-                      individuals, while the social model focuses on removing
-                      barriers
+                      The social model of disability focuses on removing
+                      barriers, not correcting people.
                     </li>
                     <li className="text-lg">
-                      Self-advocacy and autonomy are essential for
-                      neurodivergent individuals
+                      Inclusive language matters—ask individuals their preferred
+                      terms.
+                    </li>
+                    <li className="text-lg">
+                      Access to diagnosis and services enhances support and
+                      understanding.
+                    </li>
+                    <li className="text-lg">
+                      Workplaces and communities benefit from embracing
+                      neurodiverse talents.
                     </li>
                   </ul>
                 </div>
@@ -157,40 +160,62 @@ const ScientificRepositoryPage: React.FC = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="bg-white p-6 rounded-lg shadow-md">
                       <h4 className="text-xl font-bold text-[#1C4473] mb-2">
-                        Applied Behavior Analysis (ABA)
+                        Psychosocial and Behavioural Interventions
                       </h4>
                       <p>
-                        When implemented with respect for the individual's
-                        autonomy and preferences, ABA can help develop
-                        communication, social, and daily living skills.
+                        These interventions aim to improve daily life
+                        functioning in areas such as academic performance,
+                        school behaviour, and peer and family relationships.
+                        They focus on teaching skills to children, parents, and
+                        teachers, which are valuable over the child's lifetime,
+                        especially since ADHD (which often co-occurs or shares
+                        traits with ASD) is a chronic condition.
                       </p>
                     </div>
                     <div className="bg-white p-6 rounded-lg shadow-md">
                       <h4 className="text-xl font-bold text-[#1C4473] mb-2">
-                        Naturalistic Developmental Behavioral Interventions
+                        Pharmacological Interventions
                       </h4>
                       <p>
-                        Combining developmental and behavioral principles in
-                        natural settings to support social communication
-                        development.
+                        It is crucial to understand that there are currently no
+                        pharmacologic treatments known to address the core ASD
+                        symptoms of social deficits and restricted/repetitive
+                        behaviours. However, two atypical antipsychotics,
+                        risperidone and aripiprazole, are FDA-approved to reduce
+                        irritability/aggressive behaviour in the context of ASD.
                       </p>
                     </div>
                     <div className="bg-white p-6 rounded-lg shadow-md">
                       <h4 className="text-xl font-bold text-[#1C4473] mb-2">
-                        Social Skills Training
+                        Novel and Emerging Treatment Avenues
                       </h4>
+                      <p className="mb-2 text-red-600 font-bold">
+                        This approach requires further research
+                      </p>
                       <p>
-                        Structured teaching of social communication and
-                        interaction skills in individual or group settings.
+                        Recent research is exploring how to address the
+                        significant heterogeneity in ASD by identifying
+                        biologically homogeneous subgroups or common pathways
+                        amenable to pharmacotherapy. Genetic variants in autism
+                        can be grouped into those affecting transcriptional
+                        regulators and kinase-associated cell signalling,
+                        chromatin remodelling, or synapse function.
                       </p>
                     </div>
                     <div className="bg-white p-6 rounded-lg shadow-md">
                       <h4 className="text-xl font-bold text-[#1C4473] mb-2">
-                        Sensory Integration Therapy
+                        Diagnostic Considerations and Future Research Directions
                       </h4>
                       <p>
-                        Helping children process sensory information more
-                        effectively through structured sensory activities.
+                        For ASD, there is no single test to diagnose the
+                        disorder, and symptoms are highly heterogeneous.
+                        Multiple informants (parents, teachers, and youth
+                        themselves) are often necessary to improve diagnostic
+                        accuracy due to poor-to-moderate agreement between
+                        raters. There is a need for further research to develop
+                        more accurate assessment systems based on cognitive,
+                        behavioural, and emotional analyses, and digital
+                        cognitive and psychological intervention systems.
                       </p>
                     </div>
                   </div>
@@ -203,38 +228,52 @@ const ScientificRepositoryPage: React.FC = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="bg-white p-6 rounded-lg shadow-md">
                       <h4 className="text-xl font-bold text-[#1C4473] mb-2">
-                        Behavioral Parent Training
+                        Psychosocial and Behavioural Interventions
                       </h4>
                       <p>
-                        Teaching parents strategies to help children develop
-                        self-regulation and manage behavior effectively.
+                        Psychosocial and behavioural interventions are
+                        considered a primary evidence-based approach for ADHD. A
+                        key advantage of these treatments is their focus on
+                        teaching skills to children, parents, and teachers,
+                        which are valuable over the child's lifetime, especially
+                        given ADHD's chronic nature.
                       </p>
                     </div>
                     <div className="bg-white p-6 rounded-lg shadow-md">
                       <h4 className="text-xl font-bold text-[#1C4473] mb-2">
-                        Cognitive Behavioral Therapy (CBT)
+                        Pharmacological Interventions
                       </h4>
                       <p>
-                        Developing skills to manage attention, behavior, and
-                        emotions through structured therapeutic techniques.
+                        Medications are frequently used in ADHD management,
+                        either alone or in combination with other interventions.
+                        Stimulants are generally considered the most effective
+                        pharmacological treatment for ADHD symptoms.
                       </p>
                     </div>
                     <div className="bg-white p-6 rounded-lg shadow-md">
                       <h4 className="text-xl font-bold text-[#1C4473] mb-2">
-                        Educational Interventions
+                        Diagnostic Precision
                       </h4>
                       <p>
-                        Classroom accommodations and teaching strategies that
-                        support attention and learning.
+                        The diagnosis of ADHD remains challenging, emphasizing
+                        the need for comprehensive assessment beyond just
+                        behavioural symptoms. Future research aims to develop
+                        more accurate assessment systems incorporating
+                        cognitive, behavioural, and emotional analyses.
                       </p>
                     </div>
                     <div className="bg-white p-6 rounded-lg shadow-md">
                       <h4 className="text-xl font-bold text-[#1C4473] mb-2">
-                        Physical Exercise
+                        Adverse Childhood Experiences (ACEs)
                       </h4>
                       <p>
-                        Regular physical activity to improve attention, reduce
-                        hyperactivity, and support overall well-being.
+                        The relationship between ACEs and ADHD is complex;
+                        traumatic stress can manifest as hyperactivity or other
+                        ADHD symptoms. Clinicians are encouraged to screen for
+                        ACEs during ADHD evaluations to ensure accurate
+                        diagnosis and appropriate interventions. Promoting
+                        resilience in children with ACEs is vital to mitigate
+                        their impact.
                       </p>
                     </div>
                   </div>
