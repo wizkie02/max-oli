@@ -91,12 +91,12 @@ const HomePage: React.FC = () => {
             </div>
           </div>
         </div>
-        <a
+        {/* <a
           href="/about"
           className="text-[#1C4473] text-lg font-medium hover:text-[#67AAF9] transition-colors"
         >
           Learn more about us →
-        </a>
+        </a> */}
       </section>
 
       {/* Our Story Section */}

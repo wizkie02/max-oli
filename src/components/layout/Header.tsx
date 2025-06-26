@@ -15,7 +15,7 @@ const Header: React.FC = () => {
           </span>
         </Link>
 
-        <nav className="hidden md:flex space-x-8">
+        <nav className="hidden lg:flex space-x-8">
           <Link
             to="/"
             className="text-[#1C4473] hover:text-[#67AAF9] font-medium transition-colors"
@@ -58,7 +58,7 @@ const Header: React.FC = () => {
           </a>
         </nav>
 
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="text-[#1C4473] focus:outline-none"

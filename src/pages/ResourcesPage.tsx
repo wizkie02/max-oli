@@ -185,49 +185,49 @@ const ResourcesPage: React.FC = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="flex flex-col justify-center items-center gap-8">
-            <div className="flex flex-col lg:flex-row justify-center items-center gap-8">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/cL1D5KleEzU?si=w_jRnnSEgF8k0UQZ"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                className="rounded-xl border-2 border-black"
-                allowFullScreen
-              ></iframe>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/XPbZ_5pIQCo?si=PKn-dtR1KFC5RpUg"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                className="rounded-xl border-2 border-black"
-                allowFullScreen
-              ></iframe>
+            <div className="flex flex-col lg:flex-row justify-center items-center gap-8 w-full">
+              <div className="w-full lg:w-[560px]">
+                <iframe
+                  className="w-full aspect-video rounded-xl border-2 border-black"
+                  src="https://www.youtube.com/embed/cL1D5KleEzU?si=w_jRnnSEgF8k0UQZ"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="w-full lg:w-[560px]">
+                <iframe
+                  className="w-full aspect-video rounded-xl border-2 border-black"
+                  src="https://www.youtube.com/embed/XPbZ_5pIQCo?si=PKn-dtR1KFC5RpUg"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </div>
-            <div className="flex flex-col lg:flex-row justify-center items-center gap-8">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/jbcpnFvRFBc?si=RU0XYdaGqbFJ2Kqq"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                className="rounded-xl border-2 border-black"
-                allowFullScreen
-              ></iframe>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/be1_ygaEV14?si=GfqkzsYSV3NX6FTK"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                className="rounded-xl border-2 border-black"
-                allowFullScreen
-              ></iframe>
+            <div className="flex flex-col lg:flex-row justify-center items-center gap-8 w-full">
+              <div className="w-full lg:w-[560px]">
+                <iframe
+                  className="w-full aspect-video rounded-xl border-2 border-black"
+                  src="https://www.youtube.com/embed/jbcpnFvRFBc?si=RU0XYdaGqbFJ2Kqq"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="w-full lg:w-[560px]">
+                <iframe
+                  className="w-full aspect-video rounded-xl border-2 border-black"
+                  src="https://www.youtube.com/embed/be1_ygaEV14?si=GfqkzsYSV3NX6FTK"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
